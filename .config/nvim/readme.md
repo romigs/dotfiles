@@ -1,0 +1,13 @@
+coc plugins white #fff
+--banyak extensi untuk membantu pengembangaman web server!
+--contohnya adalah dibawah ini, dan jangan lua setiap coc extensi bagusnya didaftarken ke coc-config.js
+--1.tsserver coc untuk hint diagnostic
+--2.prettier untuk format text lebih bagus!
+----keterangna: menggunakan prettier diharuskan prettier benar terinsall! pada filenya, dan
+----gunakan formatOnSave pada coc-config.js
+--3.higlight untuk colors
+--4. emmet
+--5. blade laravel
+--6.intelephense php
+--7. snipet
+--8. tailwind
