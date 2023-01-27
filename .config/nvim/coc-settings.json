@@ -10,8 +10,7 @@
         "javascript",
         "json",
         "bash",
-        "md",
-		"lua"
+        "md"
     ],
     "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/15.0.1/clangd_15.0.1/bin/clangd",
     "html-css-support.enable": true,
@@ -29,15 +28,16 @@
     "diagnostic.format": "%message [%source]",
     "diagnostic.virtualText": true,
     "diagnostic.checkCurrentLine": true,
-	"diagnostic.signLevel": "hint",
-	"diagnostic.enableHighlightLineNumber": true,
+    "diagnostic.signLevel": "hint",
+    "diagnostic.enableHighlightLineNumber": true,
     "diagnostic.separateRelatedInformationAsDiagnostics": true,
-	"diagnostic.showUnused": true,
+    "diagnostic.showUnused": true,
     "diagnostic.virtualTextPrefix": " ▸ ",
     "diagnostic.errorSign": "\uf65b",
     "diagnostic.warningSign": "\uf525",
     "diagnostic.infoSign": "\uf7fb",
     "diagnostic.hintSign": "\uf7d6",
+    "pullDiagnostic.onSave": true,
     "diagnostic-languageserver.filetypes": {
         "sh": "shellcheck",
         "zsh": "shellcheck"
@@ -57,13 +57,7 @@
     },
     "prettier.enable": true,
     "prettier.tabWidth": 4,
-    "pullDiagnostic.onSave": true,
-    "coc.preferences.formatOnSave": true
+    "prettier.formatterPriority": 1,
+    "coc.preferences.formatOnSave": true,
+    "coc.preferences.formatOnSaveFiletypes": ["*"]
 }
-
-
-
-
-
-
-
