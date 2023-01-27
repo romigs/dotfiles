@@ -3,7 +3,7 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
-
+export PATH="/usr/local/lib/node_modules/tree-sitter:$PATH"
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -117,6 +117,9 @@ export PATH="$HOME/.config/composer/vendor/bin:$PATH"
    alias ssatus="systemctl status"
    alias srestart="systemctl restart"
    alias sstop="systemctl stop"
+   alias musik="rhythmbox"
 # ~/.zshrc
 
 eval "$(starship init zsh)"
+
+
