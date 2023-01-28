@@ -1,6 +1,7 @@
 "jika terjadi sebuah error error
 "uabernama nonvalid charater
-"itu dikarenakan file pluginnya!
+"itu dikarenakan file pluginnya
+set linebreak
 call plug#begin('~/.vim/plugged')
 Plug 'VundleVim/Vundle.vim'
 Plug 'nvim-lua/plenary.nvim'
