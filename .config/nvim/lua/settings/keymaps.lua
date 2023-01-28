@@ -1,15 +1,15 @@
-vim.keymap.set('i', 'jk', '<esc>')
-
-vim.keymap.set('i', 'aa', '<esc> $')
-vim.keymap.set('i', 'ii', '<esc> ^')
 
 --command yang diperuntukan untuk nvim!
 local normal_map = function(command, exec)
 	vim.keymap.set('n', command, ':'..exec..'<CR>',{noremap = true})
 end
 
+local visual_map= function(command, exec)
+	vim.keymap.set('v', command, ':'..exec..'<CR>',{noremap = true})
+end
+
 local insert_map = function(command, exec)
-	vim.keymap.set('i', command, '<esc>:'..exec..'<CR>',{noremap = true})
+	vim.keymap.set('i', command, '<esc> '..exec..'<CR>',{noremap = true})
 end
 
 local normal_ctrl_map = function(command, exec)
@@ -29,6 +29,8 @@ local insert_ctrl_map= function(command, exec)
 	insert_map('<C-'..command..'>', exec);
 end
 
+normal_map("H", "<<")
+normal_map("L", ">>")
 normal_map("zz", "/clean-search-qwerty")
 --fungsi untuk membuka Telescope
 normal_map("tt", "Telescope")--plugin
@@ -45,10 +47,16 @@ insert_alt_map("b", "NvimTreeToggle")  --plugin
 -- fungsi untuk pindah tab pada mode normal dan insert
 normal_alt_map("l", "BufferLineCycleNext") --plugin
 normal_alt_map("h", "BufferLineCyclePrev")--plugin
-insert_alt_map("l", "BufferLineCycleNext")--plugin
-insert_alt_map("h", "BufferLineCyclePrev")--plugin
+insert_alt_map("l", ":BufferLineCycleNext")--plugin
+insert_alt_map("h", ":BufferLineCyclePrev")--plugin
 
-
+insert_map('jk', ' ') --back to normal mode
+insert_map('aa', '$')
+insert_map('ii', '^')
 --fungsi untuk mencari file pada mode normal dan insert
 normal_ctrl_map("p", "Telescope find_files")----plugin
-insert_ctrl_map("p", "Telescope find_files")----plugin
+insert_ctrl_map("p", ":Telescope find_files")----plugin
+
+visual_map('H', '<<')
+visual_map('L', '>>')
+visual_map('jk', '<esc>')
