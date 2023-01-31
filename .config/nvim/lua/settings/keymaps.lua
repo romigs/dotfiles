@@ -50,7 +50,7 @@ normal_alt_map("h", "BufferLineCyclePrev")--plugin
 insert_alt_map("l", ":BufferLineCycleNext")--plugin
 insert_alt_map("h", ":BufferLineCyclePrev")--plugin
 
-insert_map('jk', ' ') --back to normal mode
+insert_map('jk', ';') --back to normal mode
 insert_map('aa', '$')
 insert_map('ii', '^')
 --fungsi untuk mencari file pada mode normal dan insert
