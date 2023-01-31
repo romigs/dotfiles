@@ -1,64 +1,50 @@
 {
-        "css.lint.unknownAtRules": "ignore",
-    "tailwindCSS.emmetCompletions": true,
-    "tailwindCSS.classAttributes": ["class", "className", "ngClass"],
-    "colors.enable": true,
-    "highlight.colorNames.enable": false,
-    "highlight.disableLanguages": [
-        "php",
-        "cpp",
-        "c",
-        "javascript",
-        "json",
-        "bash",
-        "md"
-    ],
-    "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/15.0.1/clangd_15.0.1/bin/clangd",
-    "html-css-support.enable": true,
-    "html-css-support.enabledLanguages": [
-        "html",
-        "php 8",
-        "php",
-        "vue",
-        "blade",
-        "htmldjango",
-        "typescriptreact",
-        "javascriptreact"
-    ],
-    "diagnostic.messageTarget": "echo",
-    "diagnostic.format": "%message [%source]",
-    "diagnostic.virtualText": true,
-    "diagnostic.checkCurrentLine": true,
-    "diagnostic.signLevel": "hint",
-    "diagnostic.enableHighlightLineNumber": true,
-    "diagnostic.separateRelatedInformationAsDiagnostics": true,
-    "diagnostic.showUnused": true,
-    "diagnostic.virtualTextPrefix": " ▸ ",
-    "diagnostic.errorSign": "\uf65b",
-    "diagnostic.warningSign": "\uf525",
-    "diagnostic.infoSign": "\uf7fb",
-    "diagnostic.hintSign": "\uf7d6",
-    "pullDiagnostic.onSave": true,
-    "diagnostic-languageserver.filetypes": {
-        "sh": "shellcheck",
-        "zsh": "shellcheck"
-    },
-    "diagnostic-languageserver.formatFiletypes": {
-        "sh": "shfmt",
-        "zsh": "shfmt"
-    },
-    "diagnostic.floatConfig": {
-        "rounded": true,
-        "border": true
-    },
-    "eslint.autoFixOnSave": true,
-    "eslint.format.enable": true,
-    "emmet.includeLanguages": {
-        "javascript": "html"
-    },
-    "prettier.enable": true,
-    "prettier.tabWidth": 4,
-    "prettier.formatterPriority": 1,
-    "coc.preferences.formatOnSave": true,
-    "coc.preferences.formatOnSaveFiletypes": ["*"]
+  "css.lint.unknownAtRules": "ignore",
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.classAttributes": ["class", "className", "ngClass"],
+  "colors.enable": true,
+  "highlight.colorNames.enable": false,
+  "highlight.disableLanguages": [
+    "php",
+    "cpp",
+    "c",
+    "javascript",
+    "json",
+    "bash",
+    "md"
+  ],
+  "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/15.0.1/clangd_15.0.1/bin/clangd",
+  "html-css-support.enable": true,
+  "html-css-support.enabledLanguages": [
+    "html",
+    "php 8",
+    "php",
+    "vue",
+    "blade",
+    "htmldjango",
+    "typescriptreact",
+    "javascriptreact"
+  ],
+  "diagnostic.messageTarget": "echo",
+  "diagnostic.format": "%message [%source]",
+  "diagnostic.virtualText": true,
+  "diagnostic.checkCurrentLine": true,
+  "diagnostic.signLevel": "hint",
+  "diagnostic.enableHighlightLineNumber": true,
+  "diagnostic.separateRelatedInformationAsDiagnostics": true,
+  "diagnostic.showUnused": true,
+  "diagnostic.virtualTextPrefix": " ▸ ",
+  "diagnostic.errorSign": "\uf65b",
+  "diagnostic.warningSign": "\uf525",
+  "diagnostic.infoSign": "\uf7fb",
+  "diagnostic.hintSign": "\uf7d6",
+  "pullDiagnostic.onSave": true,
+  "diagnostic.floatConfig": {
+    "rounded": true,
+    "border": true
+  },
+  "emmet.includeLanguages": {
+    "javascript": "html"
+  },
+  "coc.preferences.formatOnSave": true
 }
