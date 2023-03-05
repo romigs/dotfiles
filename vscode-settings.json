@@ -18,12 +18,10 @@
       "after": [":", ">", ">", "CR"],
       "commands": [":normal_map", "L", ">>"]
     },
-    {
+ {
       "before": ["f", "f"],
-      "commands": [":w!<CR>"],
-      "after": [],
-      "title": "Save file",
-      "whichKey": "ff"
+      "after": [":", "w", "!", "CR"],
+      "commands": [":normal_map", "ff", "w!"]
     }
   ],
   "editor.lineNumbers": "relative",
