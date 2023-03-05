@@ -1,0 +1,48 @@
+{
+  "editor.minimap.enabled": false,
+  "vim.easymotion": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["H"],
+      "after": [":", "<", "<", "CR"],
+      "commands": [":normal_map", "H", "<<"]
+    },
+    {
+      "before": ["L"],
+      "after": [":", ">", ">", "CR"],
+      "commands": [":normal_map", "L", ">>"]
+    },
+    {
+      "before": ["f", "f"],
+      "commands": [":w!<CR>"],
+      "after": [],
+      "title": "Save file",
+      "whichKey": "ff"
+    }
+  ],
+  "editor.lineNumbers": "relative",
+  "vim.overrideCopy": true,
+  "vim.useSystemClipboard": true,
+  "prettier.enable": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "workbench.iconTheme": "material-icon-theme",
+  "prettier.bracketSameLine": true,
+  "code-runner.runInTerminal": true,
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "code-runner.clearPreviousOutput": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "emmet.includeLanguages": {
+    "javascript": "html5"
+  },
+  "errorLens.enabledDiagnosticLevels": ["error", "warning", "info"],
+  "errorLens.gutterIconsEnabled": true,
+  "errorLens.followCursor": "activeLine"
+}
