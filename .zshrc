@@ -90,8 +90,12 @@ source $ZSH/oh-my-zsh.sh
 
 #path to XAMPP
 export PATH="/opt/lampp/bin:$PATH"
+export PATH="/home/:$PATH"
 #composer
 export PATH="$HOME/.config/composer/vendor/bin:$PATH"
+export PATH="$HOME/go/bin:$PATH"
+export PATH=$PATH:$GOPATH/bin
+
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -113,13 +117,17 @@ export PATH="$HOME/.config/composer/vendor/bin:$PATH"
    alias tas="tmux attach-session -t"
    alias tk="tmux kill-session -t"
    alias tks="tmux kill-server"
-   alias sudovim="sudo -E vim"
-   alias ssatus="systemctl status"
-   alias srestart="systemctl restart"
+   alias sudovim="sudo -E nvim"
+   alias sstatus="systemctl status"
+   alias srestart="sudo systemctl restart"
    alias sstop="systemctl stop"
    alias musik="rhythmbox"
 # ~/.zshrc
 
 eval "$(starship init zsh)"
+
+
+
+# ls -d */ menampilkan folder saja!
 
 
