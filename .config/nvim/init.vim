@@ -5,6 +5,7 @@ call plug#begin('~/.vim/pluggin')
 Plug 'VundleVim/Vundle.vim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
+Plug 'numToStr/Comment.nvim'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'kyazdani42/nvim-tree.lua'
