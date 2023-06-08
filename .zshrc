@@ -96,7 +96,6 @@ export PATH="$HOME/.config/composer/vendor/bin:$PATH"
 export PATH="$HOME/go/bin:$PATH"
 export PATH=$PATH:$GOPATH/bin
 
-
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
@@ -120,8 +119,11 @@ export PATH=$PATH:$GOPATH/bin
    alias sudovim="sudo -E nvim"
    alias sstatus="systemctl status"
    alias srestart="sudo systemctl restart"
-   alias sstop="systemctl stop"
-   alias musik="rhythmbox"
+   alias sstart="sudo systemctl start"
+   alias senable="sudo systemctl enable"
+   alias sdisable="sudo systemctl disable"
+   alias sreload="sudo systemctl reload"
+   alias sstop="sudo systemctl stop"
 # ~/.zshrc
 
 eval "$(starship init zsh)"
