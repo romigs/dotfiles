@@ -1,8 +1,6 @@
 --settings.lua
 local g = vim.g
 local opt = vim.opt --vim.option / vim.pilihan!
-
-
 opt.mouse = 'a'
 opt.wrap = true
 opt.breakindent = true
@@ -22,7 +20,7 @@ opt.whichwrap = vim.o.whichwrap .. '<,>,h,l'
 --clipboard="unnamedplus" agar setiap copy tersimpan pada clipboard!
 opt.clipboard="unnamedplus"
 opt.syntax="on"
-opt.shiftwidth = 4
+opt.shiftwidth = 2
 opt.tabstop = 4 
 opt.tabend = 4
 opt.smarttab = true
