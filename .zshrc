@@ -124,6 +124,8 @@ export PATH=$PATH:$GOPATH/bin
    alias sdisable="sudo systemctl disable"
    alias sreload="sudo systemctl reload"
    alias sstop="sudo systemctl stop"
+   alias resurrect="~/resurrect.sh"
+
 # ~/.zshrc
 
 eval "$(starship init zsh)"
