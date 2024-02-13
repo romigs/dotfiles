@@ -13,7 +13,7 @@
     "bash",
     "md"
   ],
-  "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/15.0.1/clangd_15.0.1/bin/clangd",
+  "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/15.0.6/clangd_15.0.6/bin/clangd",
   "html-css-support.enable": true,
   "html-css-support.enabledLanguages": [
     "html",
@@ -34,9 +34,9 @@
   "diagnostic.separateRelatedInformationAsDiagnostics": true,
   "diagnostic.showUnused": true,
   "diagnostic.virtualTextPrefix": " ▸ ",
-  "diagnostic.errorSign": "\uf65b",
-  "diagnostic.warningSign": "\uf525",
-  "diagnostic.infoSign": "\uf7fb",
+  "diagnostic.errorSign": "\u2716",
+  "diagnostic.warningSign": "\ue654",
+  "diagnostic.infoSign": "\uf129",
   "diagnostic.hintSign": "\uf7d6",
   "pullDiagnostic.onSave": true,
   "diagnostic.floatConfig": {
@@ -46,5 +46,6 @@
   "emmet.includeLanguages": {
     "javascript": "html"
   },
-  "coc.preferences.formatOnSave": true
+  "coc.preferences.formatOnSave": true,
+  "snippets.ultisnips.pythonPrompt": false
 }
