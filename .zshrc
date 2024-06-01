@@ -116,6 +116,7 @@ export PATH=$PATH:$GOPATH/bin
    alias tas="tmux attach-session -t"
    alias tk="tmux kill-session -t"
    alias tks="tmux kill-server"
+   alias tswap="tmux swap-window -t"
    alias sudovim="sudo -E nvim"
    alias sstatus="systemctl status"
    alias srestart="sudo systemctl restart"
